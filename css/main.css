@@ -2533,7 +2533,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #bb799c;
+  background: #ffbe7f;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2576,4 +2576,11 @@ header.header {
   .sidebar-dimmer {
     display: none;
   }
+}
+body {
+  background: url("/images/background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
 }
