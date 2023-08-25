@@ -778,6 +778,11 @@ pre code {
 .post-body .note.danger h6 {
   color: #d9534f;
 }
+.pdfobject-container iframe,
+.pdfobject-container embed {
+  height: 500px;
+  width: 100%;
+}
 .post-body .tabs {
   margin-bottom: 20px;
 }
@@ -2353,6 +2358,13 @@ mark.search-keyword {
   color: #ff2a2a;
   font-weight: bold;
 }
+mjx-container[jax='CHTML'][display='true'],
+.has-jax {
+  overflow: auto hidden;
+}
+mjx-container[display='true'] + br {
+  display: none;
+}
 .use-motion .animated {
   animation-fill-mode: none;
   visibility: inherit;
@@ -2533,7 +2545,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #c6ffff;
+  background: #1da837;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);

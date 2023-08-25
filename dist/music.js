@@ -6,7 +6,7 @@ const ap = new APlayer({
       {
         name: 'ヒカリヘ (向着光) (piano version)',
         artist: '林友树 (林ゆうき)',
-        url: 'http://music.163.com/song/media/outer/url?id=22676839',
+        url: 'https://github.com/yuzutan29/yuzutan29.github.io/blob/master/dist/xzg.mp3',
         cover: 'http://p2.music.126.net/TorVPG2yr7hTlTtqvkTEGg==/109951167783660809.jpg',
       },
       {
