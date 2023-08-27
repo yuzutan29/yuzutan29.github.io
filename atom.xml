@@ -6,7 +6,7 @@
   <link href="https://yuzutan29.github.io/atom.xml" rel="self"/>
   
   <link href="https://yuzutan29.github.io/"/>
-  <updated>2023-08-25T07:29:22.032Z</updated>
+  <updated>2023-08-27T00:24:40.528Z</updated>
   <id>https://yuzutan29.github.io/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="https://yuzutan29.github.io/2023/08/25/note/"/>
     <id>https://yuzutan29.github.io/2023/08/25/note/</id>
     <published>2023-08-25T07:00:00.000Z</published>
-    <updated>2023-08-25T07:29:22.032Z</updated>
+    <updated>2023-08-27T00:24:40.528Z</updated>
     
-    <content type="html"><![CDATA[<div class="pdf-container" data-target="/pdf/NoteofHörmander’sHypoellipticity.pdf" data-height="500px"></div>]]></content>
+    <content type="html"><![CDATA[<iframe src="/pdfjs/web/viewer.html?file=/pdf/NoteofHörmander’sHypoellipticity.pdf" width="100%" height="500px" frameborder="0"></iframe>]]></content>
     
     
       
       
-    <summary type="html">&lt;div class=&quot;pdf-container&quot; data-target=&quot;/pdf/NoteofHörmander’sHypoellipticity.pdf&quot; data-height=&quot;500px&quot;&gt;&lt;/div&gt;
+    <summary type="html">&lt;iframe src=&quot;/pdfjs/web/viewer.html?file=/pdf/NoteofHörmander’sHypoellipticity.pdf&quot; width=&quot;100%&quot; height=&quot;500px&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
 </summary>
       
     
