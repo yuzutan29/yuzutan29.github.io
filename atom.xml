@@ -6,7 +6,7 @@
   <link href="https://yuzutan29.github.io/atom.xml" rel="self"/>
   
   <link href="https://yuzutan29.github.io/"/>
-  <updated>2023-09-23T04:54:20.496Z</updated>
+  <updated>2023-09-23T05:03:32.609Z</updated>
   <id>https://yuzutan29.github.io/</id>
   
   <author>
@@ -17,41 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>笔记</title>
-    <link href="https://yuzutan29.github.io/2023/08/25/note%20of%20Hormander/"/>
-    <id>https://yuzutan29.github.io/2023/08/25/note%20of%20Hormander/</id>
-    <published>2023-08-25T07:00:00.000Z</published>
-    <updated>2023-09-23T04:54:20.496Z</updated>
-    
-    <content type="html"><![CDATA[<iframe src="/pdfjs/web/viewer.html?file=/pdf/NoteofHörmander’sHypoellipticity.pdf" width="100%" height="500px" frameborder="0"></iframe>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;iframe src=&quot;/pdfjs/web/viewer.html?file=/pdf/NoteofHörmander’sHypoellipticity.pdf&quot; width=&quot;100%&quot; height=&quot;500px&quot; frameborder=&quot;0&quot;&gt;
-&lt;/iframe&gt;
-</summary>
-      
-    
-    
-    
-    <category term="PDE" scheme="https://yuzutan29.github.io/categories/PDE/"/>
-    
-    <category term="Hypoelliptic" scheme="https://yuzutan29.github.io/categories/PDE/Hypoelliptic/"/>
-    
-    <category term="Note of Hörmander’s Hypoellipticity" scheme="https://yuzutan29.github.io/categories/PDE/Hypoelliptic/Note-of-Hormander%E2%80%99s-Hypoellipticity/"/>
-    
-    
-    <category term="note" scheme="https://yuzutan29.github.io/tags/note/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>笔记</title>
+    <title>Note of Masmoudi 2020 2D Couette flow in critical space</title>
     <link href="https://yuzutan29.github.io/2023/08/25/note%20of%20Masmoudi%20Couette%20flow/"/>
     <id>https://yuzutan29.github.io/2023/08/25/note%20of%20Masmoudi%20Couette%20flow/</id>
     <published>2023-08-25T07:00:00.000Z</published>
-    <updated>2023-09-23T04:53:35.493Z</updated>
+    <updated>2023-09-23T05:03:32.609Z</updated>
     
     <content type="html"><![CDATA[<iframe src="/pdfjs/web/viewer.html?file=/pdf/NoteofMasmoudi 20202DCouetteflowincriticalspace" width="100%" height="500px" frameborder="0"></iframe>]]></content>
     
@@ -68,21 +38,19 @@
     
     <category term="Hypoelliptic" scheme="https://yuzutan29.github.io/categories/PDE/Hypoelliptic/"/>
     
-    <category term="Note of Masmoudi 2020 2D Couette flow in critical space" scheme="https://yuzutan29.github.io/categories/PDE/Hypoelliptic/Note-of-Masmoudi-2020-2D-Couette-flow-in-critical-space/"/>
-    
     
     <category term="note" scheme="https://yuzutan29.github.io/tags/note/"/>
     
   </entry>
   
   <entry>
-    <title>笔记</title>
+    <title>Note of Wu(et al.)’s Stability;Couetteflow;2D-Boussinesq;vertical dissipation</title>
     <link href="https://yuzutan29.github.io/2023/08/25/note%20of%20Wu%20Couette%20flow/"/>
     <id>https://yuzutan29.github.io/2023/08/25/note%20of%20Wu%20Couette%20flow/</id>
     <published>2023-08-25T07:00:00.000Z</published>
-    <updated>2023-09-23T04:52:47.027Z</updated>
+    <updated>2023-09-23T05:03:22.216Z</updated>
     
-    <content type="html"><![CDATA[<iframe src="/pdfjs/web/viewer.html?file=/pdf/NoteofWu(etal.)’sStability;Couetteflow;2D-Boussinesq;verticaldissipation.pdf" width="100%" height="500px" frameborder="0"></iframe><iframe src="/pdfjs/web/viewer.html?file=/pdf/NoteofMasmoudi 20202DCouetteflowincriticalspace" width="100%" height="500px" frameborder="0"></iframe>]]></content>
+    <content type="html"><![CDATA[<iframe src="/pdfjs/web/viewer.html?file=/pdf/NoteofWu(etal.)’sStability;Couetteflow;2D-Boussinesq;verticaldissipation.pdf" width="100%" height="500px" frameborder="0"></iframe>]]></content>
     
     
       
@@ -96,7 +64,33 @@
     
     <category term="Hypoelliptic" scheme="https://yuzutan29.github.io/categories/PDE/Hypoelliptic/"/>
     
-    <category term="Note of Wu(et al.)’s Stability;Couetteflow;2D-Boussinesq;vertical dissipation" scheme="https://yuzutan29.github.io/categories/PDE/Hypoelliptic/Note-of-Wu-et-al-%E2%80%99s-Stability-Couetteflow-2D-Boussinesq-vertical-dissipation/"/>
+    
+    <category term="note" scheme="https://yuzutan29.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Note of Hörmander’s Hypoellipticity</title>
+    <link href="https://yuzutan29.github.io/2023/08/25/note%20of%20Hormander/"/>
+    <id>https://yuzutan29.github.io/2023/08/25/note%20of%20Hormander/</id>
+    <published>2023-08-25T07:00:00.000Z</published>
+    <updated>2023-09-23T05:02:54.210Z</updated>
+    
+    <content type="html"><![CDATA[<iframe src="/pdfjs/web/viewer.html?file=/pdf/NoteofHörmander’sHypoellipticity.pdf" width="100%" height="500px" frameborder="0"></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe src=&quot;/pdfjs/web/viewer.html?file=/pdf/NoteofHörmander’sHypoellipticity.pdf&quot; width=&quot;100%&quot; height=&quot;500px&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+</summary>
+      
+    
+    
+    
+    <category term="PDE" scheme="https://yuzutan29.github.io/categories/PDE/"/>
+    
+    <category term="Hypoelliptic" scheme="https://yuzutan29.github.io/categories/PDE/Hypoelliptic/"/>
     
     
     <category term="note" scheme="https://yuzutan29.github.io/tags/note/"/>
