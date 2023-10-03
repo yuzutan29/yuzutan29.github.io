@@ -33,15 +33,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"yuzutan29.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","width":280,"display":"post","padding":18,"offset":10,"onmobile":true},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="2023.9.23 关于9.17的问题，发现mse上有人问了一样的东西——Navier-Stokes方程的粘性项的存在造成时间的不对称，同时测地流必然是时间对称的。若去掉粘性项，可得到欧拉方程，该方程有一个众所周知的VI Arnold 表征（Tao在17年有一篇关于Boussinesq方程嵌入问题的博客，毕竟前者和轴对称Euler有关系）。这看上去很合理，因为粘性项是耗散项，而测地线一般和保守力&#x2F;">
+    <meta name="description" content="2023.10.03 考虑2维NS方程的稳态解，若令\((U,W)\)是原方程的速度、涡度解，\((U^0,W^0)\)是稳态解，即 \[\begin{align*}  \displaystyle \left\{\begin{array}{l}  \partial_t W + U\cdot \nabla W - \Delta W &#x3D; 0,\\  U^0\cdot \nabla W^0 -\Delt">
 <meta property="og:type" content="website">
 <meta property="og:title" content="柚子酱的悟道场">
 <meta property="og:url" content="https://yuzutan29.github.io/schedule/daily.html">
 <meta property="og:site_name" content="柚子酱的悟道场">
-<meta property="og:description" content="2023.9.23 关于9.17的问题，发现mse上有人问了一样的东西——Navier-Stokes方程的粘性项的存在造成时间的不对称，同时测地流必然是时间对称的。若去掉粘性项，可得到欧拉方程，该方程有一个众所周知的VI Arnold 表征（Tao在17年有一篇关于Boussinesq方程嵌入问题的博客，毕竟前者和轴对称Euler有关系）。这看上去很合理，因为粘性项是耗散项，而测地线一般和保守力&#x2F;">
+<meta property="og:description" content="2023.10.03 考虑2维NS方程的稳态解，若令\((U,W)\)是原方程的速度、涡度解，\((U^0,W^0)\)是稳态解，即 \[\begin{align*}  \displaystyle \left\{\begin{array}{l}  \partial_t W + U\cdot \nabla W - \Delta W &#x3D; 0,\\  U^0\cdot \nabla W^0 -\Delt">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-09-23T04:43:12.198Z">
-<meta property="article:modified_time" content="2023-09-23T04:43:01.479Z">
+<meta property="article:published_time" content="2023-10-03T03:41:40.182Z">
+<meta property="article:modified_time" content="2023-10-03T03:41:40.173Z">
 <meta property="article:author" content="Yuzutan">
 <meta name="twitter:card" content="summary">
 
@@ -146,7 +146,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#section"><span class="nav-number">1.</span> <span class="nav-text">2023.9.23</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-1"><span class="nav-number">2.</span> <span class="nav-text">2023.9.17</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-2"><span class="nav-number">3.</span> <span class="nav-text">2023.9.5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-3"><span class="nav-number">4.</span> <span class="nav-text">2023.8.27</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-4"><span class="nav-number">5.</span> <span class="nav-text">2023.8.24</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#section"><span class="nav-number">1.</span> <span class="nav-text">2023.10.03</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-1"><span class="nav-number">2.</span> <span class="nav-text">2023.9.23</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-2"><span class="nav-number">3.</span> <span class="nav-text">2023.9.17</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-3"><span class="nav-number">4.</span> <span class="nav-text">2023.9.5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-4"><span class="nav-number">5.</span> <span class="nav-text">2023.8.27</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#section-5"><span class="nav-number">6.</span> <span class="nav-text">2023.8.24</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -209,13 +209,64 @@
       
       
       <div class="post-body">
-          <h3 id="section">2023.9.23</h3>
+          <h3 id="section">2023.10.03</h3>
+<p>考虑2维NS方程的稳态解，若令<span
+class="math inline">\((U,W)\)</span>是原方程的速度、涡度解，<span
+class="math inline">\((U^0,W^0)\)</span>是稳态解，即</p>
+<p><span class="math display">\[\begin{align*}
+
+\displaystyle \left\{\begin{array}{l}
+
+\partial_t W + U\cdot \nabla W - \Delta W = 0,\\
+
+U^0\cdot \nabla W^0 -\Delta W^0 = 0,
+
+\end{array}\right.
+
+\end{align*}\]</span></p>
+<p>作差方程<span
+class="math inline">\(u=U-U^0,\omega=W-W^0\)</span>得<span
+class="math display">\[\displaystyle \partial_t\omega + u\cdot \nabla
+\omega-\Delta\omega=-U\cdot\nabla W^0-U^0\cdot\nabla W + U^0\cdot\nabla
+W^0+\Delta W^0\]</span></p>
+假设<span class="math inline">\(\displaystyle U\cdot\nabla
+W^0=0\rightarrow \partial_1W^0=\partial_2W^0=0\)</span>，知$
+<span class="math display">\[\begin{cases}
+
+\Delta U^0_2=0=\Delta U^0_1,\\
+
+\nabla\cdot U^0=0.
+
+\end{cases}\]</span>
+<p><span class="math inline">\(，考虑调和多项式，则\)</span><span
+class="math inline">\(U^0_1, U^0_2\)</span>的解首先在<span
+class="math inline">\(\{1,x_1,x_2,x_1x_2,x_1^2-x_2^2\}\)</span>张成的5维多项式空间中，且散度为0，即得</p>
+<p><span class="math display">\[\begin{align*}
+
+\displaystyle U^0_1&amp;=A_1+B_1x_1+C_1x_2+D_1x_1x_2+E_1 (x_1^2 -
+x_2^2),\\
+
+U^0_2&amp;=A_2+B_2x_1-B_1x_2-2E_1x_1x_2+\frac{D_1}{2} (x_1^2 - x_2^2),\\
+
+W^0&amp;=B_2 - C_1,
+
+\end{align*}\]</span></p>
+<p>并得方程<span class="math display">\[\displaystyle \partial_t \omega
++ u\cdot\nabla \omega-\Delta\omega+
+U^0\cdot\nabla\omega=0\]</span>，考虑Hypoellipticity有<span
+class="math inline">\(\displaystyle
+[X_0,X_1]=(B_1+D_1x_2+2E_1x_1)\partial_1 +
+(B_2-2E_1x_2+D_1x_1)\partial_2\)</span>，可通过验证<span
+class="math inline">\(aX_1+b[X_0,X_1]=0\Rightarrow
+a=b=0\)</span>知算子<span
+class="math inline">\(P=\partial_t+U^0\cdot\nabla-\Delta\)</span>是Hypoelliptic的。</p>
+<h3 id="section-1">2023.9.23</h3>
 <p>关于9.17的问题，发现<a
 target="_blank" rel="noopener" href="https://math.stackexchange.com/questions/9085/manifold-interpretation-of-navier-stokes-equations?rq=1">mse</a>上有人问了一样的东西——Navier-Stokes方程的粘性项的存在造成时间的不对称，同时测地流必然是时间对称的。若去掉粘性项，可得到欧拉方程，该方程有一个众所周知的<a
 target="_blank" rel="noopener" href="http://terrytao.wordpress.com/2010/06/07/the-euler-arnold-equation/">VI
 Arnold 表征</a>（Tao在17年有一篇关于Boussinesq方程嵌入问题的<a
 target="_blank" rel="noopener" href="https://terrytao.wordpress.com/2017/12/14/embedding-the-boussinesq-equations-in-the-incompressible-euler-equations-on-a-manifold/">博客</a>，毕竟前者和轴对称Euler有关系）。这看上去很合理，因为粘性项是耗散项，而测地线一般和保守力/场有关系。第三篇Note已经上传，接下来优化第一篇Note。</p>
-<h3 id="section-1">2023.9.17</h3>
+<h3 id="section-2">2023.9.17</h3>
 <p>第三份笔记正在写作中，乍看之下并无新的知识增长点。刷牙时想到二维流体如果追踪一个粒子的轨迹，是否是某种流形上的(类时)测地线：</p>
 <p><span class="math display">\[\begin{align*}
 
@@ -243,9 +294,9 @@ class="math inline">\(T^{\mu\nu}=(\rho +p)U^{\mu} U^{\nu} +
 pg^{\mu\nu}\Rightarrow
 \nabla_{\mu}(pg^{\mu\nu})=0\)</span>，似乎压力非恒常时并不成立。如能通过测地线把流体方程与相对论那样的双曲方程结合，是否会带来新的结构？待看：佟大为的gr讲义<span
 class="math inline">\(\rightarrow\)</span>fluid讲义。</p>
-<h3 id="section-2">2023.9.5</h3>
+<h3 id="section-3">2023.9.5</h3>
 <p>宴罢瑶池阿母家，嫩惊飞上紫云车。北国的校园里玉簪开了一大片，花语脱俗、冰清玉洁。才知有江南第一花的叫法，倒是我的无知了。第二份笔记在提取复杂情形的“复杂”需花些时间，暂且不花时间润色，因为下个任务来了。</p>
-<h3 id="section-3">2023.8.27</h3>
+<h3 id="section-4">2023.8.27</h3>
 <p>今日见老胡说科学公众号<a
 target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/tvh1sY1ErfuE-7huK8isUw">一推送</a>简单科普李群李代数，直观，遂记之。</p>
 <p>散步时想到Hörmander关于pde中Hypoellipticity的刻画动用了Lie代数，进而想问Algebric
@@ -268,7 +319,7 @@ microlocal analysis" by Struppa and Kato, also very good. [SKK]/LNM 287
 is another classical book, but very hard to read. Please try to search
 M. Sato, M. Kashiwara, P. Schapira, and else.</li>
 </ul>
-<h3 id="section-4">2023.8.24</h3>
+<h3 id="section-5">2023.8.24</h3>
 <p>花了一个下午搭建了Bolg，佛系更新就此开始。最近在读关于Hypoelliptic的东西，希望之后能用上。</p>
 <p>另外插个广告，博主今年初参与并发表了第一篇<a
 target="_blank" rel="noopener" href="https://link.springer.com/article/10.1007/s00033-023-01951-9">paper</a>，主要内容是：</p>
