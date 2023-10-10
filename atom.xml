@@ -6,7 +6,7 @@
   <link href="https://yuzutan29.github.io/atom.xml" rel="self"/>
   
   <link href="https://yuzutan29.github.io/"/>
-  <updated>2023-09-23T05:05:21.423Z</updated>
+  <updated>2023-10-10T09:23:04.077Z</updated>
   <id>https://yuzutan29.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Q&amp;A about Neuro operator and pde solve</title>
+    <link href="https://yuzutan29.github.io/2023/10/10/Q&amp;A%20of%20Neuro%20operator/"/>
+    <id>https://yuzutan29.github.io/2023/10/10/Q&amp;A%20of%20Neuro%20operator/</id>
+    <published>2023-10-10T09:00:00.000Z</published>
+    <updated>2023-10-10T09:23:04.077Z</updated>
+    
+    <content type="html"><![CDATA[<iframe src="/pdfjs/web/viewer.html?file=/pdf/Neuro&amp;pde&amp;Q&amp;A" width="100%" height="500px" frameborder="0"></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;iframe src=&quot;/pdfjs/web/viewer.html?file=/pdf/Neuro&amp;amp;pde&amp;amp;Q&amp;amp;A&quot; width=&quot;100%&quot; height=&quot;500px&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;
+</summary>
+      
+    
+    
+    
+    <category term="PDE &amp; Numerical" scheme="https://yuzutan29.github.io/categories/PDE-Numerical/"/>
+    
+    <category term="Neuro operator" scheme="https://yuzutan29.github.io/categories/PDE-Numerical/Neuro-operator/"/>
+    
+    
+    <category term="note" scheme="https://yuzutan29.github.io/tags/note/"/>
+    
+  </entry>
   
   <entry>
     <title>Note of Masmoudi 2020 2D Couette flow in critical space</title>
