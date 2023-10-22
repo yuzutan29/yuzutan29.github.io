@@ -40,8 +40,8 @@
 <meta property="og:site_name" content="柚子酱的悟道场">
 <meta property="og:description" content="2023.10.22 最近读Fanghua Lin老师18年的review，突然想起先前老师让我考虑的和still open问题密切相关，比如Lions&#39; problem，我试图说服自己“那可是open problem”但又不想放弃思考。 Fourier分析里的Restriction Conjecture主要研究把Fourier算子限制在某个子集(\(\mathbb{T}^n\)引入了商拓扑，姑且">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-10-22T05:48:35.989Z">
-<meta property="article:modified_time" content="2023-10-22T05:48:35.975Z">
+<meta property="article:published_time" content="2023-10-22T05:52:21.278Z">
+<meta property="article:modified_time" content="2023-10-22T05:52:21.268Z">
 <meta property="article:author" content="Yuzutan">
 <meta name="twitter:card" content="summary">
 
@@ -216,32 +216,31 @@ problem”但又不想放弃思考。</p>
 <p>Fourier分析里的Restriction
 Conjecture主要研究把Fourier算子限制在某个子集(<span
 class="math inline">\(\mathbb{T}^n\)</span>引入了商拓扑，姑且认为我们想要的限制至少需要继承<span
-class="math inline">\(\R^n\)</span>的拓扑)上的Fourier分析。</p>
-<p>考虑Fourier限制算子：</p>
-<p><span class="math display">\[\displaystyle
+class="math inline">\(\mathbb{R}^n\)</span>的拓扑)上的Fourier分析。</p>
+<p>考虑Fourier限制算子：<span class="math inline">\(\displaystyle
 \mathcal{R}^{M}_{p,q}\mathcal{F}:f\mapsto\hat{f}|_{M},\
-L^p(\mathbb{R}^n)\to L^q(M),\ 1\leq p,q\leq\infty\]</span>是否有界？</p>
+L^p(\mathbb{R}^n)\to L^q(M),\ 1\leq p,q\leq\infty\)</span>是否有界？</p>
 <p>由Hausdorff-Young不等式知<span class="math inline">\(\displaystyle
 \mathcal{R}^{\mathbb{R}^n}_{p,q}\mathcal{F}\)</span>在<span
 class="math inline">\(1\leq p\leq 2,\ q=p&#39;\)</span>时有界，<span
 class="math inline">\(p&gt;2,q=p&#39;\)</span>无界。同样的过程可推广到<span
 class="math inline">\(\displaystyle M\)</span>是<span
 class="math inline">\(\displaystyle
-\R^n\)</span>中有正Lebesgue测度的子集情形(此时<span
+\mathbb{R}^n\)</span>中有正Lebesgue测度的子集情形(此时<span
 class="math inline">\(\displaystyle L^2(M)\cap L^1(M)\)</span>在<span
 class="math inline">\(L^2(M)\)</span>中还是稠密的)。我们想要考虑的是<span
 class="math inline">\(M\)</span>是Lebesgue零测情形，这可能对研究边界条件有帮助。</p>
 <p>Restriction Conjecture for Curves in <span
 class="math inline">\(\mathbb{R}^2\)</span>是有证明的：</p>
 <p>令<span class="math inline">\(\displaystyle
-\phi:[-1,1]\to\R\)</span>是<span
+\phi:[-1,1]\to\mathbb{R}\)</span>是<span
 class="math inline">\(C^2\)</span>的函数，满足<span
 class="math inline">\(\displaystyle \inf_{|\xi|\leq
 1}|\phi&#39;&#39;(\xi)|\geq\nu&gt;0\)</span>，记Graph <span
 class="math inline">\(\displaystyle
-M^{\phi}:=\{(x,\phi(x))\∈\mathbb{R}^2:x\in [-1,1]\}\)</span>。对<span
+M^{\phi}:=\{(x,\phi(x))\in\mathbb{R}^2:x\in [-1,1]\}\)</span>。对<span
 class="math inline">\(\displaystyle
-f:M^{\phi}\to\C\)</span>，交换图(该死的mathjax渲染不了)<code>\require&#123;AMScd&#125; \begin&#123;CD&#125; [-1,1] @&gt;i_&#123;\phi&#125;=(id,\phi)&gt;&gt; M^&#123;\phi&#125;\\ @.     &#123;_\style&#123;display: inline-block; transform: rotate(-30deg)&#125;&#123;\overset&#123;f_&#123;\phi&#125;&#125;&#123;\longrightarrow&#125;&#125;&#125; @VVfV\\  @. \mathbb&#123;C&#125; \end&#123;CD&#125;</code></p>
+f:M^{\phi}\to\mathbb{C}\)</span>，交换图(该死的mathjax渲染不了)<code>\require&#123;AMScd&#125; \begin&#123;CD&#125; [-1,1] @&gt;i_&#123;\phi&#125;=(id,\phi)&gt;&gt; M^&#123;\phi&#125;\\ @.     &#123;_\style&#123;display: inline-block; transform: rotate(-30deg)&#125;&#123;\overset&#123;f_&#123;\phi&#125;&#125;&#123;\longrightarrow&#125;&#125;&#125; @VVfV\\  @. \mathbb&#123;C&#125; \end&#123;CD&#125;</code></p>
 <figure>
 <img
 src="/Users/yuzutanl/Library/Application%20Support/typora-user-images/image-20231022134504954.png"
